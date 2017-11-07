@@ -1,3 +1,3 @@
 #!/bin/sh
-docker build -t simple-example-image .
-docker run -it -v $(pwd)/src:/src -w /src simple-example-image sh
+docker build -t simple-docker-python .
+docker run -it -v $(pwd)/src:/src -w /src simple-docker-python sh
