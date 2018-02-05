@@ -1,3 +1,5 @@
 #!/bin/sh
-docker build -t simple-docker-python .
-docker run -t -w /src simple-docker-python python print.py
+name="simple-docker-python"
+
+docker build -t $name .
+docker run -t -w /src $name python print.py
